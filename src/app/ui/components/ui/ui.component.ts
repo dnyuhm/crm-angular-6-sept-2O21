@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class UiComponent implements OnInit {
   public open: boolean;
   constructor() {
-    this.open = true;
+    this.open = false;
   }
 
   ngOnInit(): void {}

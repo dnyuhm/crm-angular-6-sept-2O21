@@ -1,0 +1,5 @@
+
+Todo:
+  ☐ utiliser un *ngIF="" pour afficher soit app-icone-close quand notre menu est ouvert ou
+
+  ☐  afficher app-icon nav quand notre menu est fermé
