@@ -8,10 +8,16 @@
       <td>{{ item.typePresta }}</td>
       <td>{{ item.client }}</td>
       <td>{{ item.nbJours }}</td>
-      <td>{{ item.tjmHt }}</td>
-      <td>{{ item | total }}</td>
+      <td>{{ item.tjmHt | currency }}</td>
+      <td>{{ item | total | currency}}</td>
       <td>{{ item | total: true}}</td>
       <td>{{ item.state }}</td>
+      <td>
+        <select (change)="changeState(item, $event)">
+          <option *ngFor="let state of states" [value]="state" [selected]="item.state === state">{{state}}</option>
+        </select>
+      </td>
+
     </tr>
   </app-table-light>
   <app-btn></app-btn>
