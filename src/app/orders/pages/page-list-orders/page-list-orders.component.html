@@ -12,7 +12,7 @@
       <td>{{ item | total | currency}}</td>
       <td>{{ item | total: true}}</td>
       <td>{{ item.state }}</td>
-      <td>
+      <td [appState]="item.state">
         <select (change)="changeState(item, $event)">
           <option *ngFor="let state of states" [value]="state" [selected]="item.state === state">{{state}}</option>
         </select>
