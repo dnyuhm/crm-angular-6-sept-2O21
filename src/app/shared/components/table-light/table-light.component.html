@@ -1,18 +1,10 @@
 <table class="table">
   <thead>
     <tr>
-      <th></th>
+      <th *ngFor="let item of headers" scope="col">{{ item }}</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
+    <ng-content></ng-content>
   </tbody>
 </table>
