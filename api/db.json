@@ -49,16 +49,39 @@
       "client": "Modis",
       "comment": "Merci Modis pour les 10k",
       "id": 5
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "CONFIRMED",
+      "typePresta": "testtype",
+      "client": "testclient",
+      "comment": "test",
+      "id": 6
+    },
+    {
+      "tjmHt": 1201,
+      "nbJours": 2,
+      "tva": 19,
+      "state": "OPTION",
+      "typePresta": "finishtest",
+      "client": "finishclient",
+      "comment": "blablabla",
+      "id": 7
     }
   ],
   "clients": [
     {
       "state": "INACTIVE",
+      "taux_tva": 20,
+      "total_ca_ht": 0,
       "tva": 20,
       "id": 1,
       "name": "Capgemini",
       "totalCaHt": 120000,
-      "comment": "un comment pour client modis"
+      "comment": "un comment pour client modis",
+      "email": "exemple@exemple.fr"
     },
     {
       "state": "ACTIVE",
@@ -66,7 +89,8 @@
       "id": 2,
       "name": "Modis",
       "totalCaHt": 120000,
-      "comment": "un comment pour client modis"
+      "comment": "un comment pour client modis",
+      "email": "exemple@exemple.fr"
     },
     {
       "tva": 20,
@@ -74,6 +98,7 @@
       "name": "modis",
       "totalCaHt": 0,
       "comment": "rsger",
+      "email": "exemple@exemple.fr",
       "id": 3
     }
   ]
