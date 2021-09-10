@@ -9,7 +9,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "api": "json-server --watch api/db.json"
-
   },
   "private": true,
   "dependencies": {

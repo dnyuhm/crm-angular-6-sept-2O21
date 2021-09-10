@@ -2,41 +2,11 @@
   "orders": [
     {
       "tjmHt": 1200,
-      "nbJours": 20,
-      "tva": 20,
-      "state": "OPTION",
-      "typePresta": "formation",
-      "client": "Capgemini2",
-      "comment": "Merci Cap pour les 24k",
-      "id": 1
-    },
-    {
-      "tjmHt": 1200,
-      "nbJours": 10,
-      "tva": 20,
-      "state": "CONFIRMED",
-      "typePresta": "formation",
-      "client": "Modis",
-      "comment": "fgddhf",
-      "id": 2
-    },
-    {
-      "tjmHt": 1200,
-      "nbJours": 1,
-      "tva": 20,
-      "state": "CANCELED",
-      "typePresta": "formation",
-      "client": "Capgemini",
-      "comment": null,
-      "id": 3
-    },
-    {
-      "tjmHt": 1200,
       "nbJours": 12,
       "tva": 20,
       "state": "CONFIRMED",
       "typePresta": "formation",
-      "client": "Capgemini",
+      "client": "Capgemini2",
       "comment": "Merci capgemini pour les 14k",
       "id": 4
     },
@@ -69,6 +39,16 @@
       "client": "finishclient",
       "comment": "blablabla",
       "id": 7
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "OPTION",
+      "typePresta": "dsfgsdgf",
+      "client": "qfdgsdgf",
+      "comment": null,
+      "id": 8
     }
   ],
   "clients": [
